@@ -13,12 +13,12 @@ What is published here is the statutory decision table, written from the Penal C
 
 ## Try it in two minutes
 
-**Claude Cowork:** Plugins, Add marketplace, enter `cleanslate-engine/tap-plugins`, then install Record Clearance Legal.
+**Claude Cowork:** Plugins, Add marketplace, enter `oliver-rourke/tap-plugins`, then install Record Clearance Legal.
 
 **Claude Code:**
 
 ```
-/plugin marketplace add cleanslate-engine/tap-plugins
+/plugin marketplace add oliver-rourke/tap-plugins
 /plugin install record-clearance-legal@tap-plugins
 ```
 
@@ -58,7 +58,7 @@ The first returns LIKELY ELIGIBLE on the PC 1203.4 mandatory route and a "Filing
 - `record-clearance-legal/` — the plugin: four skills (`cold-start-interview`, `customize`, `intake-import`, `eligibility-screen`), the rulebook, statute cards with dated fetches, the county filing guide, twelve synthetic fixtures with expected results, and a `claude plugin eval` suite of fourteen cases.
 - `.claude-plugin/marketplace.json` — makes this repository installable as a marketplace named `tap-plugins`.
 
-The same plugin sits on a branch of [our fork of Claude for Legal](https://github.com/cleanslate-engine/claude-for-legal/tree/record-clearance-legal/record-clearance-legal), in the suite's layout with its marketplace entry and documentation rows, ready for an upstream pull request.
+The same plugin sits on a branch of [our fork of Claude for Legal](https://github.com/oliver-rourke/claude-for-legal/tree/record-clearance-legal/record-clearance-legal), in the suite's layout with its marketplace entry and documentation rows, ready for an upstream pull request.
 
 ## Connectors
 
