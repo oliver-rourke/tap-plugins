@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "Slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp"
+    },
+    "Google Drive": {
+      "type": "http",
+      "url": "https://drivemcp.googleapis.com/mcp/v1"
+    },
+    "CourtListener": {
+      "type": "http",
+      "url": "https://mcp.courtlistener.com/"
+    },
+    "Typeform": {
+      "type": "http",
+      "url": "https://api.typeform.com/mcp"
+    },
+    "Airtable": {
+      "type": "http",
+      "url": "https://mcp.airtable.com/mcp"
+    }
+  }
+}
